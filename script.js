@@ -124,5 +124,8 @@ function render() {
         tree.appendChild(btn);
     }
 }
+function goBack() {
+    location.reload();
+}
 
 render();
