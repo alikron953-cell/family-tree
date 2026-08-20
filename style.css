@@ -140,3 +140,24 @@ h1 {
         height: 260px;
     }
 }
+/* GALLERY */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 6px;
+    opacity: 0.8;
+    transition: 0.2s;
+}
+
+.gallery img:active {
+    transform: scale(1.3);
+    opacity: 1;
+}
